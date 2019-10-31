@@ -21,6 +21,14 @@ public class Calculator {
 	
 		return num1 + num2;
 	}
+	/**
+	 * Resta
+	 */
+	public static int resta(int num1, int num2) {
+		
+		return num1 - num2;
+	
+	}
 	
 	/**
 	 * Multiplicación
@@ -34,7 +42,7 @@ public class Calculator {
 	/**
 	 * Division
 	 */
-	public static int mult(int num1, int num2) {
+	public static int division(int num1, int num2) {
 		
 		return num1 / num2;
 	
