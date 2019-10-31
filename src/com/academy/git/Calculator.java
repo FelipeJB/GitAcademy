@@ -30,5 +30,15 @@ public class Calculator {
 		return num1 * num2;
 	
 	}
+	
+	/**
+	 * Division
+	 */
+	public static int mult(int num1, int num2) {
+		
+		return num1 / num2;
+	
+	}
+	
 
 }
