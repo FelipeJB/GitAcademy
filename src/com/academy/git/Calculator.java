@@ -13,11 +13,14 @@ public class Calculator {
 		
 		int sum = sum(number1, number2);
 		int sub = subtraction(number1, number2);
+		double div = division(number1, number2);
 		
-		System.out.println("The sum of " + number1 +" and " + 
-		number2 + " equals: " + sum);
-		System.out.println("The subtraction of " + number1 + " and " +
-		number2 + " equals: " + sub);
+		System.out.println("----------SUM----------------");
+		System.out.println("The sum of " + number1 +" and " + number2 + " equals: " + sum);
+		System.out.println("--------SUBTRACTION----------");
+		System.out.println("The subtraction of " + number1 + " and " + number2 + " equals: " + sub);
+		System.out.println("---------DIVISION------------");
+		System.out.println("The division of " + number1 + " and " + number2 + " equals: " + div);
 		
 	}
 	
@@ -30,6 +33,12 @@ public class Calculator {
 	public static int subtraction(int num1, int num2) {
 		
 		return num1 - num2;
+		
+	}
+	
+	public static double division(int num1, int num2) {
+		
+		return num1 / num2;
 		
 	}
 
