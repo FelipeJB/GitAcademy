@@ -1,4 +1,4 @@
-package com.academy.git;
+//package com.academy.git;
 
 public class Calculator {
 
@@ -14,8 +14,9 @@ public class Calculator {
 		int sum = sum(number1, number2);
 		int sub = subtraction(number1, number2);
 		double div = division(number1, number2);
-		double mul = multiplication(number1, number2);
+		int mul = multiplication(number1, number2);
 		
+		System.out.println("\n");
 		System.out.println("-------------SUM------------------");
 		System.out.println("The sum of " + number1 +" and " + number2 + " equals: " + sum);
 		System.out.println("----------SUBTRACTION------------");
