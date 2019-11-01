@@ -2,9 +2,9 @@
 
 public class Calculator {
 
-	System.out.println("Si no est√°n estos cambios hay tabla!");
+	System.out.println("Si no est·n estos cambios hay tabla!");
 
-	System.out.println("Tambi√©n deber√≠an estar estos cambios adicionales!");
+	System.out.println("TambiÈn deberÌan estar estos cambios adicionales!");
 	
 	public static void main(String[] args) {
 		
