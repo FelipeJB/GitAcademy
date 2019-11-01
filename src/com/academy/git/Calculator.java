@@ -25,31 +25,33 @@ public class Calculator {
 		System.out.println("The division of " + number1 + " and " + number2 + " equals: " + div);
 		System.out.println("--------MULTIPLICATION-----------");
 		System.out.println("The multiplication of " + number1 + " and " + number2 + " equals: " + mul);
-		
-	}
-	
-	public static int sum(int num1, int num2) {
-	
-		return num1 + num2;
-	
-	}
-	
-	public static int subtraction(int num1, int num2) {
-		
-		return num1 - num2;
-		
-	}
-	
-	public static double division(int num1, int num2) {
-		
-		return num1 / num2;
-		
-	}
-	
-	public static int multiplication(int num1, int num2) {
-		
-		return num1 * num2;
-		
 	}
 
+	/**
+	 * Método que retorna la suma
+	 */
+	public static int sum(int num1, int num2) {
+		return num1 + num2;	
+	}
+	
+	/**
+	 * Método que retorna la resta
+	 */
+	public static int subtraction(int num1, int num2) {
+		return num1 - num2;
+	}
+	
+	/**
+	 * Método que retorna la división
+	 */
+	public static double division(int num1, int num2) {
+		return num1 / num2;
+	}
+	
+	/**
+	 * Método que retorna la multiplicación
+	 */
+	public static int multiplication(int num1, int num2) {
+		return num1 * num2;
+	}
 }
