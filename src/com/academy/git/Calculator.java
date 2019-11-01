@@ -20,7 +20,24 @@ public class Calculator {
 	public static int sum(int num1, int num2) {
 	
 		return num1 + num2;
-	
 	}
+	/**
+	 * Resta
+	 */
+	public static int resta(int num1, int num2) {
+		return num1 - num2;	
+	}
+	/**
+	 * Multiplicación
+	 */
+	public static int mult(int num1, int num2) {		
+		return num1 * num2;	
+	}	
+	/**
+	 * Division
+	 */
+	public static int division(int num1, int num2) {	
+		return num1 / num2;	
+	}	
 
 }
